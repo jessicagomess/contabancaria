@@ -1,13 +1,16 @@
 package conta.model;
 
-public class Conta {
+// Classe Abstrata => Base para criar outras Classes
+public abstract class Conta {
   
-  private int numero;
+	//Atributos/Váriaveis
+    private int numero;
 	private int agencia;
 	private int tipo;
 	private String titular;
 	private float saldo;
 
+	//Método Especial/ Método Construtor
 	public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
 		this.numero = numero;
 		this.agencia = agencia;

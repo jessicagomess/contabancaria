@@ -28,6 +28,6 @@ public class ContaCorrente extends Conta { // extends => herança/herda
 	// Polimorfismo e Sobreescrita => add mais lógica a um método já existente
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("Limite de Crédito" + this.limite);
+		System.out.println("Limite de Crédito: " + this.limite);
 	}
 }
